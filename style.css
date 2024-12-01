@@ -954,4 +954,31 @@ footer p {
         left:-11em;
     }
 }
+@media screen and (max-width: 320px) {
+  .hero{
+    padding: 20px;
+    text-align: center;
+    height: auto;
+  }
+  .hero {
+    padding-top: 150px;
+  }
 
+  .contact{
+    display: flex;
+  }
+}
+  @media screen and (max-width: 768px) {
+    .hero{
+      padding: 20px;
+      text-align: center;
+      height: auto;
+    }
+    .hero {
+      padding-top: 150px;
+    }
+  
+    .contact{
+      display:flex;
+  }
+}
